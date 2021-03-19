@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".UpdateProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBackground"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:padding="10dp"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name "
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age "
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/age"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/gender"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allergies"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/Allergies"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/bloodgrop"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you previous taking medicience?"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup"
+            android:orientation="horizontal"
+            >
+        <RadioButton
+            android:id="@+id/yes"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/statusYes" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/statusNo"
+            android:padding="3dp"
+            android:id="@+id/no"
+            android:checked="true"
+            />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description about your problem (optional)"
+            android:padding="10dp"
+            android:textSize="18sp"
+
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/description"
+            android:padding="5dp"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Submit"
+            android:layout_margin="5dp"
+            android:textColor="@color/textColor"
+            android:background="@drawable/my_button"
+            android:padding="5dp"
+            android:id="@+id/submit"
+            android:onClick="updateprofile"
+            />
+
+    </LinearLayout>
+</ScrollView>

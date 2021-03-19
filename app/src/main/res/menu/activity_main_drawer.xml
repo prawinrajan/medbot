@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Nightmode"
+            android:icon="@drawable/nightlight"
+            android:title="Night mode"
+            />
+        <item
+            android:id="@+id/lightmode"
+            android:icon="@drawable/light"
+            android:title="Light mode"
+            />
+        <item
+            android:id="@+id/story"
+            android:icon="@drawable/book"
+            android:title="Go to story page" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback (select E-mail app)" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/shareeee"
+            android:title="share" />
+    </group>
+</menu>

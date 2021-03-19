@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="emergencyDetailsBackground">#4A545A</color>
+    <color name="colorPrimaryDark">#282B30</color>
+    <color name="colorPrimaryLight">#4A4C59</color>
+    <color name="colorAccent">#7B91F6</color>
+    <color name="colorSecondary">#DD000000</color>
+    <color name="colorSecondaryLight">#656165</color>
+    <color name="colorSecondaryDark">#a094b7</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="colorBackground">#000000</color>
+    <color name="btnborder">#BC96FF</color>
+</resources>

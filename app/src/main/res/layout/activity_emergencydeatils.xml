@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Emergencydeatils">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/colorBackground"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Details"
+            android:padding="10dp"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trusted Person"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:id="@+id/trustedperson"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/phonenumber"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospital Details"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/textColor" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/address"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospital:"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/Hphonenumber"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PIN code:"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColor" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/pincode"
+            android:background="@drawable/my_button"
+            android:layout_height="38dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Update details"
+            android:layout_margin="5dp"
+            android:textColor="@color/textColor"
+            android:background="@drawable/my_button"
+            android:padding="5dp"
+            android:id="@+id/updatedetailsbtn"
+            android:onClick="emergencyDetailsupdate"
+            />
+
+    </LinearLayout>
+</ScrollView>

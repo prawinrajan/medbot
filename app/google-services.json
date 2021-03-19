@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "290795027351",
+    "firebase_url": "https://mech-1592579290890.firebaseio.com",
+    "project_id": "mech-1592579290890",
+    "storage_bucket": "mech-1592579290890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290795027351:android:53b44e05e3a9f4c55a62d2",
+        "android_client_info": {
+          "package_name": "com.mydreamworld.finalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290795027351-8ja3pblfdfqjcd78qh5nl5uqrs864r3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGGn9TZpB7Y3tB9o52r2oa067RpJN7cE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290795027351-8ja3pblfdfqjcd78qh5nl5uqrs864r3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290795027351:android:a7302e0f7890f06f5a62d2",
+        "android_client_info": {
+          "package_name": "com.mydreamworld.mech_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290795027351-8ja3pblfdfqjcd78qh5nl5uqrs864r3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGGn9TZpB7Y3tB9o52r2oa067RpJN7cE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290795027351-8ja3pblfdfqjcd78qh5nl5uqrs864r3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

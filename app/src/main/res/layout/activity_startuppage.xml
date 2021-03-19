@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".Startuppage">
+    <!--
+    <Button
+        android:id="@+id/regsiter"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:onClick="regsiter"
+        android:padding="5dp"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textColor="@color/textColor"
+        android:background="@drawable/my_button"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="login"
+        android:padding="5dp"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textColor="@color/textColor"
+        app:icon="@drawable/login"
+        android:background="@drawable/my_button"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login with Google"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:id="@+id/signin"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textColor"
+        android:background="@drawable/my_button"
+        />
+</LinearLayout>
